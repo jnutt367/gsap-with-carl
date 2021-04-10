@@ -3,7 +3,7 @@ gsap.to(".b", { duration: 2, borderRadius: "50%" });
 gsap.to(".c", { duration: 3, backgroundColor: "black", x: 120, y: -120, textAlign: "center", fontFamily: "cursive", textContent: "You can even target text inside objects", height: "300", width: "300", fontSize: "50" })
 gsap.from(".h1", { duration: 2, scale: "1.5", ease: "elastic", rotation: 45, repeat: "-1" });
 
-gsap.from(".h2", { duration: 1.5, scale: "2", ease: "back" });
+gsap.from(".h2", { duration: 1.5, scale: "1.2", color: "black", ease: "back", yoyo: true });
 
 gsap.to(".h3", { duration: 5, x: 50, textAlign: "left", paddingRight: 50, });
 
