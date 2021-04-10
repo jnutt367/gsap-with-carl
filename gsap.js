@@ -17,4 +17,4 @@ gsap.to(".h1", { color: "black" });
 
 gsap.fromTo(".fish", { duration: 2, x: 200, y: 200, opacity: 0 }, { duration: 3, x: 120, y: -600, opacity: 1 });
 
-gsap.fromTo(".svg", { duration: 2, x: 2, y: 200, opacity: 0 }, { duration: 3, x: 5, y: -700, rotate: 45, opacity: .9 })
+gsap.fromTo(".svg", { duration: 2, x: 2, y: 200, opacity: 0 }, { duration: 3, x: 5, y: -50, rotate: 45, opacity: .9 })
