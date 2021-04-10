@@ -3,7 +3,7 @@ gsap.to(".b", { duration: 2, borderRadius: "50%" });
 gsap.to(".c", { duration: 3, backgroundColor: "black", x: 120, y: -120, textAlign: "center", fontFamily: "cursive", textContent: "You can even target text inside objects", height: "300", width: "300", fontSize: "50" })
 gsap.from(".h1", { duration: 2, scale: "1.5", ease: "elastic", rotation: 45, repeat: "-1" });
 
-gsap.from(".h2", { duration: 1.5, scale: "1.2", color: "black", ease: "back", yoyo: true });
+gsap.to(".h2", { duration: 1.5, scale: "1.2", backgroundColor: "grey", color: "black", padding: 15, borderRadius: 15, marginTop: "75", marginBottom: "75", ease: "back", yoyo: true });
 
 gsap.to(".h3", { duration: 5, x: 50, textAlign: "left", paddingRight: 50, });
 
@@ -11,7 +11,7 @@ gsap.from(".ginger", { duration: 1.5, fontSize: "100", x: 300, scale: "5", ease:
 gsap.to(".ginger", { duration: 2.5, scaleX: "1.1", scaleY: "2", color: "red", paddingBottom: 20 })
 gsap.from("body", { duration: 2.5, backgroundColor: "gold" });
 
-gsap.to(".h4", { duration: 3, scale: 1.1, color: "black", padding: 20 });
+gsap.to(".h4", { duration: 3, scale: 1.1, ease: "bounce", color: "black", padding: 20 });
 
 gsap.to(".h1", { color: "black" });
 
