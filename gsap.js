@@ -20,4 +20,4 @@ gsap.fromTo(".fish", { duration: 2, x: 200, y: 200, opacity: 0 }, { duration: 3,
 gsap.fromTo(".svg", { duration: 2, x: 2, y: 200, opacity: 0 }, { duration: 3, x: 5, y: -50, rotate: 45, backgroundColor: "purple", margin: "50", height: "100", width: "100", opacity: .9 });
 
 gsap.to(
-    ".new", { duration: 2.5, ease: "bounce.inOut", y: -1050, color: "black", textShadow: "2px 2px red", backgroundColor: "black", opacity: ".7", borderRadius: "15", fontFamily: "fantasy", marginRight: "100", marginLeft: "30" });
+    ".new", { duration: 2.5, ease: "bounce.inOut", y: -1050, color: "black", textShadow: "2px 2px red", backgroundColor: "green", opacity: ".7", borderRadius: "15", fontFamily: "fantasy", marginRight: "100", marginLeft: "30" });
